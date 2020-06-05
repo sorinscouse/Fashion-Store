@@ -70,6 +70,12 @@
     }
   }
 
+  @if($breakpoint == smd) {
+    @media(max-width: 640px) {
+      @content;
+    }
+  }
+
   @if($breakpoint == sm) {
     @media(max-width: 560px) {
       @content;

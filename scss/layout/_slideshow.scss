@@ -47,6 +47,10 @@
       padding: 2rem;
     }
 
+    @include response(smd){
+      bottom: 0;
+    }
+
     h2 {
       font-size: size(xl) + 1.2rem;
       color: color(primary);
